@@ -81,6 +81,13 @@ class Cards(models.Model):
 
 
 class Decks(models.Model):
+    user = models.ForeignKey(
+        User,
+        on_delete=models.CASCADE,
+        verbose_name="User collection owner",
+        blank=True,
+        null=True
+    )
     cards = models.ManyToManyField(
         Cards,
         blank=True,
@@ -110,11 +117,6 @@ class Decks(models.Model):
 class Collections(models.Model):
     card = models.ManyToManyField(
         Cards,
-        blank=True,
-        null=True
-    )
-    decks = models.ManyToManyField(
-        Decks,
         blank=True,
         null=True
     )
