@@ -1,5 +1,5 @@
 from rest_framework import routers
-from .viewsets import (UserViewSet, HeroesViewSet, HeroesAbilitiesViewSet, BasesViewSet, ExpansionsViewSet,
+from viewsets import (UserViewSet, HeroesViewSet, HeroesAbilitiesViewSet, BasesViewSet, ExpansionsViewSet,
                       CardsViewSet, DecksViewSet, CollectionsViewSet)
 
 

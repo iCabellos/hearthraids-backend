@@ -1,5 +1,5 @@
 from rest_framework import viewsets
-from .serializers import (UserSerializer, HeroesSerializer, HeroesAbilitiesSerializer,
+from serializers import (UserSerializer, HeroesSerializer, HeroesAbilitiesSerializer,
                          BasesSerializer, ExpansionsSerializer, CardsSerializer, DecksSerializer,
                          CollectionsSerializer)
 from django.contrib.auth.models import User

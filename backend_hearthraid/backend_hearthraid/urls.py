@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from .routers import routers_main
+from routers import routers_main
 
 urlpatterns = [
     path('', include(routers_main().urls)),
