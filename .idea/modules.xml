@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/backend-hearthraid.iml" filepath="$PROJECT_DIR$/.idea/backend-hearthraid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../front-hearthraid/.idea/front-hearthraid.iml" filepath="$PROJECT_DIR$/../front-hearthraid/.idea/front-hearthraid.iml" />
     </modules>
   </component>
 </project>

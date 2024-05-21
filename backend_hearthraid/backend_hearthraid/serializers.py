@@ -6,7 +6,7 @@ from backend.models import Heroes, HeroesAbilities, Bases, Expansions, Cards, De
 class UserSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = User
-        fields = ['url', 'username', 'email', 'is_staff']
+        fields = ['email', 'username', 'password']
 
 
 class HeroesSerializer(serializers.HyperlinkedModelSerializer):
